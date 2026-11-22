@@ -1,0 +1,10 @@
+[project]
+name = "pointwise-delivery"
+version = "0.1.0"
+description = "本地目录数据发现应用（FastAPI + React）"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["app/tests"]
+addopts = "-q"
